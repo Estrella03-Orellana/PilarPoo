@@ -1,5 +1,5 @@
 package src;
-public abstract class DatosPersona {
+public abstract class DatosPersona implements IMetodos{
 
     private int id;
     private String nombre;
@@ -49,10 +49,12 @@ public abstract class DatosPersona {
     }
 
     //Métodos
+    @Override
     public void concentrarse() {
         System.out.println("Concentrándose en ...");
     }
 
+    @Override
     public void viajar() {
         System.out.println("Viajando");
     }
