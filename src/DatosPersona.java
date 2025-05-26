@@ -1,9 +1,13 @@
-public class DatosPersona {
+package src;
+public abstract class DatosPersona {
 
     private int id;
     private String nombre;
     private String apellido;
     private int edad;
+
+    public DatosPersona() {
+    }
 
     public DatosPersona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
