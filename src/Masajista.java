@@ -6,9 +6,9 @@ private int aniosExperiencia;
 public Masajista() {
 }
 
- public Masajista(String nombre, String apellido, int edad,
+ public Masajista(int id, String nombre, String apellido, int edad,
             String titulacion, int aniosExperiencia) {
-        super(nombre, apellido, edad);
+        super(id,nombre, apellido, edad);
         this.titulacion = titulacion;
         this.aniosExperiencia= aniosExperiencia;
     }

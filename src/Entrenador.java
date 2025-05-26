@@ -5,9 +5,9 @@ public class Entrenador extends DatosPersona{
     public Entrenador() {
     }
 
-    public Entrenador(String nombre, String apellido, int edad,
+    public Entrenador(int id, String nombre, String apellido, int edad,
             String idFederacion) {
-        super(nombre, apellido, edad);
+        super(id, nombre, apellido, edad);
         this.idFederacion = idFederacion;
     }
 

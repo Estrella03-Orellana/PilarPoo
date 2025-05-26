@@ -6,9 +6,9 @@ public class Futbolista extends DatosPersona {
     public Futbolista() {
     }
 
-    public Futbolista(String nombre, String apellido, int edad,
+    public Futbolista(int id, String nombre, String apellido, int edad,
             String idFederacion) {
-        super(nombre, apellido, edad);
+        super(id, nombre, apellido, edad);
         this.idFederacion = idFederacion;
     }
 
